@@ -1,0 +1,274 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "hostel helpdesk",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "gbHostelIntent",
+                    "slots": [
+                        {
+                            "name": "gbhosteltype",
+                            "type": "gbhosteltype"
+                        }
+                    ],
+                    "samples": [
+                        "what is {gbhosteltype}",
+                        "where is {gbhosteltype} block",
+                        "i want to know about {gbhosteltype}",
+                        "can you tell me about {gbhosteltype}",
+                        "Can you tell me about {gbhosteltype} block",
+                        "I want to know about {gbhosteltype} block",
+                        "{gbhosteltype}",
+                        "{gbhosteltype} block"
+                    ]
+                },
+                {
+                    "name": "helloIntent",
+                    "slots": [],
+                    "samples": [
+                        "alexa ask campus helpdesk hi",
+                        "what can you do",
+                        "what's this",
+                        "how are you",
+                        "who is this",
+                        "what's up",
+                        "hey",
+                        "hello",
+                        "hi"
+                    ]
+                },
+                {
+                    "name": "hostelIntent",
+                    "slots": [
+                        {
+                            "name": "hostel",
+                            "type": "hostel"
+                        }
+                    ],
+                    "samples": [
+                        "alexa ask hostel helpdesk {hostel} hostel",
+                        "query {hostel} hostel",
+                        "{hostel} hostel"
+                    ]
+                },
+                {
+                    "name": "informationIntent",
+                    "slots": [
+                        {
+                            "name": "infotype",
+                            "type": "infotype"
+                        }
+                    ],
+                    "samples": [
+                        "alexa ask hostel helpdesk {infotype} about girls and boys hostel",
+                        "alexa ask hostel helpdesk {infotype} structure",
+                        "alexa ask hostel helpdesk {infotype} number",
+                        "{infotype} number",
+                        "{infotype} structure",
+                        "{infotype}",
+                        "{infotype} about girls hostel and boys hostel"
+                    ]
+                },
+                {
+                    "name": "typeIntent",
+                    "slots": [
+                        {
+                            "name": "type",
+                            "type": "type"
+                        }
+                    ],
+                    "samples": [
+                        "looking for {type} hostel",
+                        "{type}",
+                        "{type} hostel"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "gbhosteltype",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "malligai",
+                                "synonyms": [
+                                    "f"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "staff quarter b",
+                                "synonyms": [
+                                    "engineering staff quarters b",
+                                    "esq b"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "staff quarter a",
+                                "synonyms": [
+                                    "engineering staff quarters a",
+                                    "esq a"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "m"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "thamarai",
+                                "synonyms": [
+                                    "e"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "manoranjitham",
+                                "synonyms": [
+                                    "k"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mullai",
+                                "synonyms": [
+                                    "d"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "paari",
+                                "synonyms": [
+                                    "g"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "oori",
+                                "synonyms": [
+                                    "i"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "kaari",
+                                "synonyms": [
+                                    "h"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "adhiyaman",
+                                "synonyms": [
+                                    "j"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "t r s"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pf"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "hostel",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "women",
+                                "synonyms": [
+                                    "ladies",
+                                    "girls"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "men",
+                                "synonyms": [
+                                    "gents",
+                                    "boys"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "infotype",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "fees",
+                                "synonyms": [
+                                    "money"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "phone",
+                                "synonyms": [
+                                    "mobile",
+                                    "contact"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "information",
+                                "synonyms": [
+                                    "details",
+                                    "info"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "type",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "international"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "domestic"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
